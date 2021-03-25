@@ -1,0 +1,627 @@
+@font-face {
+    font-family:'GinoSchoolScript';
+    src: url('GinSSB60.ttf'); }
+
+@font-face {
+   font-family:'HiLo-Deco';
+   src: url('HiLo-Deco.ttf');}
+
+@font-face {
+  font-family: 'Poiret One';
+  src: url('PoiretOne-Regular.ttf');}
+
+@font-face {
+  font-family: 'Coventry Garden';
+  src: url('CoventryGarden.ttf');}
+
+@font-face {
+  font-family: 'Soerjapoetera';
+  src: url('Soerjapoetera.otf');}
+
+
+html {
+  position:relative;
+  background-color:black;
+    --mainfontsize: 1.1rem;
+    font-size: 100%;
+  }
+body{
+  background-color:black;
+  width:100%;
+}
+  
+  
+    @keyframes example {
+    0% {stroke-width:1rem;}
+    50% {stroke-width:1.5rem;}
+    100% {stroke-width:1rem;}} 
+  
+  @keyframes movement-left {
+    0% {left:57%;}
+    30% {left:48.5%;}
+    100%{left:50%;}}
+  
+  @keyframes movement-right {
+    0% {left:43%;}
+    30% {left:51.5%;}
+    100%{left:50%;}}
+
+    @keyframes movement-left2 {
+        0% {left:50.5%;}
+        50% {left:49.7%;}
+        100%{left:50%;}}
+      
+      @keyframes movement-right2 {
+        0% {left:49.5%;}
+        50% {left:50.3%;}
+        100%{left:50%;}}
+  
+        .color1{fill:#f517ff}.color2{fill:#73ff9b}.color3{fill:#2edeff}.color4{fill:none}
+
+
+
+
+  #letters{
+    z-index:1;
+    position:absolute;  
+    margin-left: -1.5rem;
+    top:-0.8rem;
+    left:50%;
+    transform: translate(-50%, 0);
+    width:100%; }
+  
+  #lettering-svg{
+    animation:movement-left2 1.5s forwards;
+    width:28.3rem;
+    position:absolute;
+    transform: translate(-50%, 0);}
+  
+  #lettering-svg2{
+    animation:movement-right2 1.5s forwards;
+    width:28.3rem;
+    position:absolute;
+    transform: translate(-50%, 0);}
+  
+  #records{
+  position:absolute;    
+  top:9.3rem;
+  left:50%;
+  transform: translate(-50%, 0);
+  width:100%;
+}
+  
+  
+  #record2{
+    position:relative;
+    animation:movement-left 1.5s forwards;
+    stroke-miterlimit:100;
+    transform: translate(-50%, 0);
+    width:20rem;}
+  
+  
+  #record{
+    position:absolute;
+    animation:movement-right 1.5s forwards;
+    stroke-miterlimit:100;
+    width:20rem;
+    transform: translate(-50%, 0);
+  --animation-time: 0.7s;}
+  
+  .cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6{fill:none;stroke-miterlimit:10;stroke-width:7px;}
+  .cls-1{stroke:#2edeff;}
+  .cls-2{stroke:#73ff9b;}
+  .cls-3{stroke:#8b73ff;}
+  .cls-4{stroke:#b85cff;}
+  .cls-5{stroke:#f517ff;}
+  .cls-6{stroke:#2ef0ff;}
+  
+  #circle1 {animation: example var(--animation-time); animation-delay:0.4s;}
+  #circle2 {animation: example var(--animation-time); animation-delay:0.45s;}
+  #circle3 {animation: example var(--animation-time); animation-delay: 0.5s;}
+  #circle4 {animation: example var(--animation-time); animation-delay: 0.55s;}
+  #circle5 {animation: example var(--animation-time); animation-delay: 0.65s;}
+  #circle6 {animation: example var(--animation-time); animation-delay: 0.7s;}
+  #circle7 {animation: example var(--animation-time); animation-delay: 0.75s;}
+  #circle8 {animation: example var(--animation-time); animation-delay: 0.8s;}
+  #circle9 {animation: example var(--animation-time); animation-delay: 0.85s;}
+  #circle10 {animation: example var(--animation-time); animation-delay: 0.9s;}
+  #circle11 {animation: example var(--animation-time); animation-delay: 1s;}
+  #circle12 {animation: example var(--animation-time); animation-delay: 1.1s;}
+
+
+  
+  
+  .one {
+    order: 1;
+    height: 32rem;
+    width: 100%;}
+
+ 
+
+  .pink {
+    font-family: 'Poiret One';
+    font-size:var(--mainfontsize);
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color:#f517ff;
+    text-align: left;
+    min-width:21em;
+    max-width:65%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;}
+
+.blue {
+  font-family:'GinoSchoolScript';
+  font-size:var(--mainfontsize);
+  color:#2edeff;
+  text-align: left;
+  min-width:35em;
+  max-width:65%;;
+  margin-left:23%;
+  margin-right:23%;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+  
+  
+.purple {
+    font-family:'GinoSchoolScript';
+    font-size:var(--mainfontsize);
+    color:#8b73ff;
+    text-align: left;
+    width:70%;
+    margin-left:23%;
+    margin-right:23%;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+.green {
+  font-family: 'Poiret One';
+  font-size:var(--mainfontsize);
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  color:#73ff9b;
+  text-align: left;
+  width:70%;
+  margin-left:23%;
+  margin-right:23%;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;}
+
+
+.hot-dog{
+  position:relative;
+  top: -0.4em;
+  margin-bottom:3.8rem;
+  margin-right: 0.28em;
+  float:left; 
+  font-family:'GinoSchoolScript'; 
+  font-size:3em;
+  font-weight: 1800; 
+  color: #2edeff; 
+  text-shadow: 1px 1px #f517ff;
+  margin-left: 12%;}
+
+  @media screen and (max-width: 777px) { 
+    .hot-dog{
+    margin-bottom: -2.4rem;}
+  }
+
+.p1 {
+  margin-bottom:3rem;
+  font-family: 'Poiret One';
+  font-size:var(--mainfontsize);
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  color:#2edeff;
+  text-align: left;
+  min-width:22.5em;
+  max-width:65%;
+  margin-left:17%;
+  margin-right: auto;}
+
+.p2 {
+    font-family: 'Poiret One';
+  font-size:var(--mainfontsize);
+  letter-spacing: 0.1em;
+  font-weight: 900;
+    color: #73ff9b;
+    text-align: left;
+    min-width:22.5em;
+    max-width:65%;
+    display:block;
+    margin-left:auto;
+    margin-right: 20%;
+    margin-bottom:3rem;}
+
+    .p3 {
+      font-family: 'Poiret One';
+    font-size:var(--mainfontsize);
+    letter-spacing: 0.1em;
+    font-weight: 900;
+      color: #f517ff;
+      text-align: left;
+      min-width:22.5em;
+      max-width:65%;
+      display:block;
+      margin-left:20%;
+      margin-right: auto;
+    margin-bottom: -1.5rem;}
+
+
+
+.inlink {
+  text-decoration: none;
+  color: #8b73ff;
+  font-weight: 900;
+  transition: color 0.2s ease-in-out
+}
+
+.inlink:hover {text-decoration: none;
+  color:#3eeeff;}
+
+
+@keyframes slide {
+  1% {left:-190rem;;}
+  26%{ left:-295rem;;}
+  45% {left:-190rem;;}
+  75%{ left:-295rem;;}
+  95% {left:-190rem;;}
+}
+
+@keyframes slidereverse {
+  5%{ left:-295rem;;}
+  25% {left:-190rem;;}
+  45%{ left:-295rem;;}
+  75% {left:-190rem;;}
+  95%{ left:-295rem;;}
+}
+
+
+.line1,.line2,.line3,.line4{fill:none;stroke-miterlimit:10;stroke-width:7px;}.line1{stroke:#2edeff;}.line2{stroke:#73ff9b;}.line3{stroke:#8b73ff;}.line4{stroke:#f517ff;}
+
+#divider {
+  top: 1rem;
+  position:relative;
+  height:8rem;
+  margin-bottom: 2rem;
+  overflow:hidden;
+}
+
+.divider2 {margin-top: 3.7rem;}
+
+#special-feature {
+  overflow:hidden;
+  margin-bottom: 4rem;
+}
+
+.feature-title{font-family: "Soerjapoetera", sans-serif;
+  text-shadow: 0.01em 0.01em #8b73ff, 0.02em 0.02em #2edeff, 0.03em 0.03em #73ff9b, 0.04em 0.04em  #2edeff, 0.05em 0.05em #8b73ff;
+  font-size: 5em;
+  font-weight:normal;
+  color: #f517ff;
+  width: 90%;
+  margin-left:0%;
+  margin-right:0%;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.greenboxcontainer {
+  position: relative;
+  border-radius:5px;
+  background-color: #73ff9b;
+  display: grid;
+  grid-template-columns: 15rem auto;
+  padding: 1rem 3rem;
+  margin-top: 4rem;
+  width: 100%;
+  right: 10%}
+
+.pinkboxcontainer {
+    position: relative;
+    border-radius:5px;
+    background-color:  #f517ff;
+    display: grid;
+    grid-template-columns: 18rem auto;
+    padding:  2rem 2rem 1rem ;
+    margin-top: 4rem ;
+    width: 100%;
+    left: 10%}
+
+.blueboxcontainer {
+      border-radius:5px;
+      position: relative;
+      background-color: #3eeeff;
+      display: grid;
+      grid-template-columns: 18rem auto;
+      padding: 1.5rem;
+      margin: 4rem 3rem -7.5rem 0rem;
+      min-height: 10rem;
+      width: 100%;
+      right: 5rem;}
+
+@media screen and (max-width: 870px) { 
+  .blueboxcontainer {
+  margin: 4rem 3rem -2rem 0rem;}
+}
+
+
+     
+    
+
+.price {font-family: "GinoSchoolScript";
+  padding: 1rem;
+  padding-top: 0rem !important;   
+  grid-column:1;
+  display: flex;
+  align-items: center;
+font-size: 5rem;
+color:black;
+text-shadow: none;}
+
+.looks {font-family: "GinoSchoolScript";
+  padding: 1rem; 
+  position: relative;
+  top: -1.5rem;
+  grid-column:1;
+  display: flex;
+  align-items: center;
+  line-height: 1.3;
+  font-size: 4.3rem;
+  width: 32%;
+  color:black;
+  text-shadow: none;
+  text-align:center; 
+  margin:0rem 0rem 0rem 3rem;}
+
+.good {position: relative;
+top: -2rem;
+left:2rem;}
+
+.lookee {position: relative;
+top:-3.8rem;
+right: 0;}
+
+.better {
+  font-family: "Poiret One";
+  font-size:var(--mainfontsize);
+    max-width:100%;
+  margin-right: 10%;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  text-shadow: none;
+    color: black;
+    text-align: left;
+}
+
+.small-looks {display:none;}
+
+@media screen and (max-width: 660px) { 
+  .greenboxcontainer{ 
+    grid-template-columns: none;
+    grid-template-rows: 5rem auto;
+    left: 0%;
+    width: 100%;
+  } 
+  .pinkboxcontainer{ 
+    grid-template-columns: none;
+    grid-template-rows: 5rem auto;
+    left: 0%;
+    width: 100%;} 
+  
+    .blueboxcontainer{ 
+      grid-template-columns: none;
+      grid-template-rows: 5rem auto;
+      left: 0%;
+      width: 100%;} 
+  
+      .price {
+    font-size: 3.2rem;
+    grid-row: 1;
+    text-align: center;
+    display: block;
+    align-items: none;
+    grid-row: 1;}
+
+  .better {padding-top: 2rem; margin-right: 0; margin-left: 0;}
+
+  .looks{ 
+  display: none;}
+    
+  .small-looks {
+    font-family: "GinoSchoolScript";
+  padding: 1rem; 
+    font-size: 2.9rem;
+    grid-row: 1;
+    text-align: center;
+    display: block;
+  align-items: none;
+  color:black;
+  text-shadow: none;}
+  }
+  
+  .divider4 {margin-top: 3.7rem;}
+
+ul {list-style-type: none;
+    }
+
+button {
+    outline: 0 !important;
+    background-color: black;
+    border: none;
+    text-align:left;
+    text-decoration: none;
+    font-family: 'GinoSchoolScript';
+    font-size:2rem;
+    font-weight: 900;
+    opacity: 0.8;
+    color:#f517ff;
+    margin-top:1.5rem;
+    margin: 1.5rem;
+    min-width:4em;
+    max-width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transition: opacity 0.2s ease-in-out}
+  
+button:hover {text-decoration: none;
+    opacity: 1;}
+
+  .question{margin-left:15% !important;}.question2{color:#73ff9b; } .question3{color:#3eeeff;} .question4{color:#8b73ff;}
+
+.answercontainer{
+  background-color:black;
+  font-family: 'Poiret One';
+  font-size:var(--mainfontsize);
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  color:#3eeeff;
+  text-shadow: none;
+  text-align:left;
+  min-width:5em;
+  max-width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#answer2 {color:#8b73ff} #answer3 {color:#f517ff} #answer4 {color:#73ff9b}
+
+.contact {
+  display: grid;
+  grid-template-rows: auto auto;}
+
+label {font-family: 'GinoSchoolScript';
+  grid-row: 1;
+  width: 85%;
+  font-size:2rem;
+  font-weight: 900;
+  color:#73ff9b;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  }
+
+
+
+.input {
+  resize: both;
+  background-color: black;
+  border-color: #b85cff;
+  border-radius: 26px;
+  border-width: 0.23rem;
+  margin: 2rem;
+  color:#3eeeff;
+  font-family: 'Poiret One';
+  font-size:var(--mainfontsize);
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  padding: 1rem;
+  transition: border-color 0.2s ease-in-out;}
+
+.input:hover {
+border-color: #f517ff;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+::placeholder {color: #8b73ff; opacity: 70%;}
+
+
+
+.divider3{
+  position: relative;
+  margin-top:-1rem;
+}
+
+
+#line1 {
+  position:absolute;
+  z-index:3;
+  width:570rem;
+  animation: slide 1s linear ;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+}
+
+#line2 {
+  position:absolute;
+  z-index: 1;
+  width:570rem;
+  animation: slide 1s linear ;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);}
+
+#line3 {
+  position:absolute;
+  z-index: 2;
+  width:570rem;
+  animation: slidereverse 1s linear ;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);}
+
+#line4 {
+  position:absolute;
+  z-index: 4;
+  width:570rem;
+  animation: slidereverse 1s linear ;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);}
+
+.emptyspace {
+  height: 20rem; 
+}
+
+@media screen and (max-width: 500px) { 
+  #lettering-svg{width: 21rem;}
+  #lettering-svg2{width: 21rem;}
+  #record{width: 15rem;}
+  #record2{width: 15rem;}
+  #records{top: 7rem;}
+  html {--mainfontsize: 0.8rem;}
+  .one{height: 25rem;}
+  .pink {max-width: 90%;
+          min-width: 90%;}
+  .p1 {margin-left: auto;}
+  .p2 {margin-right: auto;}
+  .p3 {margin-left: auto;}
+  .hot-dog {font-size:2em; margin-bottom: -0.7em;}
+  .feature-title{font-size:3em;}
+  .FAQ{font-size:3em;}
+  button {font-size: 1.2rem; min-width:90%; display:static; margin-left: none; margin-right: none;}
+  .answercontainer {max-width: 95%;}
+  .question{margin-left:auto !important;}
+  ul {padding: 0;}
+  .price {font-size: 2.5rem;}
+  .small-looks {font-size: 1.8rem;}
+  #line1, #line2, #line3, #line4 {width:380rem;}
+  .better {padding-top: 0.5rem;}
+  label {font-size: 1.5rem;}
+  #divider {margin-bottom:-1.4rem;}
+  @keyframes slide {
+    1% {left:-100rem;;}
+    26%{ left:-200rem;;}
+    45% {left:-100rem;;}
+    75%{ left:-200rem;;}
+    95% {left:-100rem;;}
+  }
+  
+  @keyframes slidereverse {
+    5%{ left:-200rem;;}
+    25% {left:-100rem;;}
+    45%{ left:-200rem;;}
+    75% {left:-100rem;;}
+    95%{ left:-200rem;;}
+  }}
