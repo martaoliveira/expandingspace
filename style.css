@@ -255,13 +255,13 @@ body{
     }
     #records{top: 7rem;}
     html {--mainfontsize: 0.8em;}
-    .splash2{font-size: 1.7rem; top:12rem;}
-    .splash{grid-template-columns: auto 4.1rem auto; 
-      grid-template-rows:4rem; top: 15rem;}
-    .sell{font-size: 4rem; color: yellow;}
-    .your{font-size:1.9rem; color:brown}
-    .vinyl{font-size:4rem;}
-    .navbar{font-size:1.7rem; margin-top:-19rem;
+    .splash2{font-size: 6vw; top:12rem;}
+    .splash{grid-template-columns: auto 15vw auto; 
+      grid-template-rows:3rem; top: 15rem;}
+    .sell{font-size: 14vw; color: yellow;}
+    .your{font-size:7vw; margin-top:-1.2rem; color:brown}
+    .vinyl{font-size:14vw;}
+    .navbar{font-size:5vw; margin-top:-19rem;
     margin-left: 3%; margin-right: 3%}
     .intro{max-height: 43rem; min-height: 38rem;}
     }
