@@ -184,7 +184,7 @@ body{
     margin-top: -1.3rem;
     font-family: Coventry Garden;
     font-size: 8rem;
-    color: HotPink;
+    color: blue;
     /*text-shadow: 0.2rem 0.2rem #65006f;*/ 
   }
 
@@ -257,7 +257,7 @@ body{
     .splash2{font-size: 1.7rem; top:12rem;}
     .splash{grid-template-columns: auto 4.1rem auto; 
       grid-template-rows:4rem; top: 15rem;}
-    .sell{font-size: 4rem;}
+    .sell{font-size: 4rem; color: yellow;}
     .your{font-size:1.9rem; color:brown}
     .vinyl{font-size:4rem;}
     .navbar{font-size:1.7rem; margin-top:-19rem;
