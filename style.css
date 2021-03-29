@@ -64,20 +64,22 @@ body{
   
         .color1{fill:#f517ff}.color2{fill:#73ff9b}.color3{fill:#2edeff}.color4{fill:none}
 
-  .intro {height: 100vh;
-  min-height: 55rem;}
+  .intro {
+  display:block;
+  top: 0;
+  height: 53rem;
+  background-color: black;
+  z-index: 10}
 
   .video {
     display: block;
     top: 0;
     z-index: -1;  
     filter: grayscale(100%) opacity(50%);  
-    height: 100vh;
-    min-height: 53rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    height: 53rem;
   }      
+
+
 
 
   #letters{
@@ -231,20 +233,13 @@ body{
   @media screen and (max-width: 610px) {
   .navbar{z-index: 1;}}
 
-  .video2{
-    display: none;
-    margin-top: 5rem;
-    display: relative;
-    z-index: -1;  
-    filter: grayscale(100%);  
-    height: 100%;
-    min-height:55rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;}
 
-  #filler {
+
+  .process {
+    background-color: #EFEFEF;
+    margin-top: 21rem;
     height:91rem;
+    z-index: 0;
   }
 
   @media screen and (max-width: 603px) { 
@@ -265,4 +260,5 @@ body{
     .navbar{font-size:6vw; margin-top:-19rem;
     margin-left: 3%; margin-right: 3%}
     .intro{max-height: 43rem; min-height: 38rem;}
+    .process{margin-top: 24rem;}
     }
