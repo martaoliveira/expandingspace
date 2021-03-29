@@ -258,7 +258,7 @@ body{
     .splash2{font-size: 6vw; top:12rem;}
     .splash{grid-template-columns: auto 15vw auto; 
       grid-template-rows:3rem; top: 15rem;}
-    .sell{font-size: 14vw; color: yellow;}
+    .sell{font-size: 14vw; color: hotpink;}
     .your{font-size:7vw; margin-top:-1.2rem; color:brown}
     .vinyl{font-size:14vw;}
     .navbar{font-size:5vw; margin-top:-19rem;
