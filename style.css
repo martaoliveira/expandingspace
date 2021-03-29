@@ -28,6 +28,7 @@ html {
   background-color:black;
     --mainfontsize: 1.1rem;
     font-size: 100%;
+    overflow-x: hidden;
   }
 body{
   background-color:black;
@@ -257,7 +258,7 @@ body{
     .splash{grid-template-columns: auto 4.1rem auto; 
       grid-template-rows:4rem; top: 15rem;}
     .sell{font-size: 4rem;}
-    .your{font-size:1.9rem;}
+    .your{font-size:1.9rem; color:brown}
     .vinyl{font-size:4rem;}
     .navbar{font-size:1.7rem; margin-top:-19rem;
     margin-left: 3%; margin-right: 3%}
