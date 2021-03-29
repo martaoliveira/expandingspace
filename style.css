@@ -241,7 +241,7 @@ body{
     background-attachment: fixed;}
 
   #filler {
-    height:60rem;
+    height:90rem;
   }
 
   @media screen and (max-width: 653px) { 
