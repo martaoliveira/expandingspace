@@ -246,7 +246,7 @@ body{
     height:91rem;
   }
 
-  @media screen and (max-width: 653px) { 
+  @media screen and (max-width: 603px) { 
     .video{width:90rem; margin-left:-45%; margin-top: -3rem;}
     #lettering-svg{width: 21rem;}
     #lettering-svg2{width: 21rem;}
@@ -255,13 +255,13 @@ body{
     }
     #records{top: 7rem;}
     html {--mainfontsize: 0.8em;}
-    .splash2{font-size: 6vw; top:12rem;}
-    .splash{grid-template-columns: auto 15vw auto; 
-      grid-template-rows:3rem; top: 15rem;}
-    .sell{font-size: 14vw; color: hotpink;}
-    .your{font-size:7vw; margin-top:-1.2rem; color:brown}
-    .vinyl{font-size:14vw;}
-    .navbar{font-size:5vw; margin-top:-19rem;
+    .splash2{font-size: 7vw; top:10rem;}
+    .splash{grid-template-columns: auto 16.6vw auto; 
+      grid-template-rows:3rem; top: 13.6rem;}
+    .sell{font-size: 16vw; color: hotpink;}
+    .your{font-size:8vw; margin-top:-.5rem; color:brown}
+    .vinyl{font-size:16vw;}
+    .navbar{font-size:6vw; margin-top:-19rem;
     margin-left: 3%; margin-right: 3%}
     .intro{max-height: 43rem; min-height: 38rem;}
     }
