@@ -163,6 +163,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    white-space: nowrap;
   }
 
   .splash {
@@ -175,6 +176,7 @@ body{
     grid-template-rows: 8rem;
     margin-top: 0rem;
     justify-content: center;
+    white-space: nowrap;
   }
 
   .sell{
