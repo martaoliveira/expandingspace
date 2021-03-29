@@ -68,6 +68,7 @@ body{
   min-height: 55rem;}
 
   .video {
+    display: block;
     top: 0;
     z-index: -1;  
     filter: grayscale(100%) opacity(50%);  
@@ -259,7 +260,7 @@ body{
     .splash{grid-template-columns: auto 16.6vw auto; 
       grid-template-rows:3rem; top: 13.6rem;}
     .sell{font-size: 16vw; color: hotpink;}
-    .your{font-size:8vw; margin-top:-.5rem; color:brown}
+    .your{font-size:8vw; margin-top:-.5rem; color:pink}
     .vinyl{font-size:16vw;}
     .navbar{font-size:6vw; margin-top:-19rem;
     margin-left: 3%; margin-right: 3%}
