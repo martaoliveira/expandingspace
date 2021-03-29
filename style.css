@@ -163,6 +163,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    white-space: nowrap;
   }
 
   .splash {
@@ -241,7 +242,7 @@ body{
     background-attachment: fixed;}
 
   #filler {
-    height:90rem;
+    height:91rem;
   }
 
   @media screen and (max-width: 653px) { 
