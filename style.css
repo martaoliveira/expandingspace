@@ -251,7 +251,8 @@ body{
     #lettering-svg{width: 21rem;}
     #lettering-svg2{width: 21rem;}
     #record{width: 15rem;}
-    #record2{width: 15rem;}
+    #record2{width: 15rem;
+    }
     #records{top: 7rem;}
     html {--mainfontsize: 0.8em;}
     .splash2{font-size: 1.7rem; top:12rem;}
