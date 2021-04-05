@@ -33,7 +33,17 @@ html {
 body{
   background-color:black;
   width:100%;
-  overflow-x: hidden;
+  font-family: HiLo-Deco;
+  font-size: 1.7em;
+}
+
+h1 {
+font-family:  Deftone Stylus;
+font-size:3.2rem; 
+}
+
+h2 {
+  font-size: 2.6rem;
 }
   
   
@@ -65,91 +75,62 @@ body{
         .color1{fill:#f517ff}.color2{fill:#73ff9b}.color3{fill:#2edeff}.color4{fill:none}
 
   .intro {
+  position: relative;
   display:block;
   top: 0;
-  height: 53rem;
+  min-height: 53rem;
+  height: 100vh;
   background-color: black;
-  z-index: 10}
+  z-index: 10;
+  overflow: hidden;}
 
   .video {
+    position: absolute;
     display: block;
     top: 0;
     z-index: -1;  
     filter: grayscale(100%) opacity(50%);  
-    height: 53rem;
+    min-height: 53rem;
+    height:100vh;
   }      
 
 
 
 
   #letters{
-    display: none;
-    z-index:1;
-    position:absolute;  
-    margin-left: -1.5rem;
-    top:-0.8rem;
-    left:50%;
-    transform: translate(-50%, 0);
-    width:100%; }
+    margin-top:1.5rem;
+    z-index:100; 
+    width:100%;
+    margin-left: min(-2.8rem, -4.7vw); }
   
   #lettering-svg{
-    animation:movement-left2 1.5s forwards;
-    width:28.3rem;
-    position:absolute;
-    transform: translate(-50%, 0);}
+    z-index:100;
+    width:30vw;
+    min-width:17.7rem;}
   
-  #lettering-svg2{
-    animation:movement-right2 1.5s forwards;
-    width:28.3rem;
-    position:absolute;
-    transform: translate(-50%, 0);}
   
   #records{
-  display: none;
-  position:absolute;    
-  top:9.3rem;
-  left:50%;
-  transform: translate(-50%, 0);
+  z-index:0;
+  margin-left: min(1rem, 0.3vw);   
+  margin-top: min(-13.1rem, -22vw);
   width:100%;
 }
   
-  
-  #record2{
-    position:relative;
-    animation:movement-left 1.5s forwards;
-    stroke-miterlimit:100;
-    transform: translate(-50%, 0);
-    width:20rem;}
-  
-  
   #record{
-    position:absolute;
-    animation:movement-right 1.5s forwards;
+    z-index:0;
     stroke-miterlimit:100;
-    width:20rem;
-    transform: translate(-50%, 0);
+    width:23.5vw;
+    min-width:14rem;
   --animation-time: 0.7s;}
   
   .cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6{fill:none;stroke-miterlimit:10;stroke-width:7px;}
-  .cls-1{stroke:#f517ff;}
-  .cls-2{stroke:#b85cff;}
-  .cls-3{stroke:#8b73ff;}
-  .cls-4{stroke:#b85cff;}
-  .cls-5{stroke:#f517ff;}
-  .cls-6{stroke:#f517ff;}
+  .cls-1{stroke:palevioletred;}
+  .cls-2{stroke:#FF909B;}
+  .cls-3{stroke:hotpink;}
+  .cls-4{stroke:MediumVioletRed;}
+  .cls-5{stroke:deeppink;}
+  .cls-6{stroke:pink;}
   
-  #circle1 {animation: example var(--animation-time); animation-delay:0.4s;}
-  #circle2 {animation: example var(--animation-time); animation-delay:0.45s;}
-  #circle3 {animation: example var(--animation-time); animation-delay: 0.5s;}
-  #circle4 {animation: example var(--animation-time); animation-delay: 0.55s;}
-  #circle5 {animation: example var(--animation-time); animation-delay: 0.65s;}
-  #circle6 {animation: example var(--animation-time); animation-delay: 0.7s;}
-  #circle7 {animation: example var(--animation-time); animation-delay: 0.75s;}
-  #circle8 {animation: example var(--animation-time); animation-delay: 0.8s;}
-  #circle9 {animation: example var(--animation-time); animation-delay: 0.85s;}
-  #circle10 {animation: example var(--animation-time); animation-delay: 0.9s;}
-  #circle11 {animation: example var(--animation-time); animation-delay: 1s;}
-  #circle12 {animation: example var(--animation-time); animation-delay: 1.1s;}
 
 
 
@@ -187,7 +168,7 @@ body{
     margin-top: -1.3rem;
     font-family: Coventry Garden;
     font-size: 8rem;
-    color: blue;
+    color: HotPink;
     /*text-shadow: 0.2rem 0.2rem #65006f;*/ 
   }
 
@@ -228,28 +209,256 @@ body{
     margin-left: 12%;
     margin-right: 12%;
     margin-top: -25rem;
-    z-index: 1;
+    z-index: 100;
   }
   @media screen and (max-width: 610px) {
-  .navbar{z-index: 1;}}
+  .navbar{z-index: 10;}}
 
+
+/* process */
 
 
   .process {
-    background-color: #EFEFEF;
+    background-color: snow;
     margin-top: 21rem;
-    height:91rem;
+    height:100vh;
+    min-height: 51rem;
     z-index: 0;
+    overflow-y: hidden;
   }
 
-  @media screen and (max-width: 603px) { 
-    .video{width:90rem; margin-left:-45%; margin-top: -3rem;}
-    #lettering-svg{width: 21rem;}
-    #lettering-svg2{width: 21rem;}
-    #record{width: 15rem;}
-    #record2{width: 15rem;
+  .processhead{position: relative;
+    padding-top: 20vh;
+    font-family: 'Coventry Garden';
+    text-align: center;}
+
+  .steps {
+    bottom:  20vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    height: 100%;}
+
+  .step {margin: 3rem;
+  text-align: center;}
+
+  .a2{color: #a5a5a5}
+  .a2:hover {color: hotpink}
+
+  .vinyl-icon {width: 5rem; margin: auto;}
+  .telephone-icon {width: 6rem; margin: auto;}
+  .dollar-icon {width: 4rem; margin: auto;}
+
+  /* FAQ */
+  .faqhead {
+    height: 31vh;
+    overflow:hidden;
+    display:block;
+  }
+
+  .heady{position: relative;
+    background-color: transparent;
+    font-family: 'Coventry Garden';
+    text-align: center;
+    color: white;
+    z-index: 100;
+    margin-top:-20vh;}
+
+  .video3{
+    width:106%;
+    margin-top:-15rem;
+    height: 50rem;
+    display: block;
+    z-index: 0;
+    top: 0;  
+    filter: grayscale(100%) opacity(100%);  
+  }
+
+  .FAQ {
+    padding-top: 4rem;
+    background-color: snow;
+    height: 100vh;
+  }
+  
+  #faqbox {
+    margin-top: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  ul {
+    margin-top: 5rem;
+  }
+  li {
+    margin-top: 2rem;
+    list-style-type: none;
+  }
+  
+  .question {
+    margin-left: 2rem;
+    text-align: left;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    color: #a5a5a5; 
+  background-color: rgba(0,0,0,0);}
+
+  .answercontainer{margin: 1rem 2rem;}
+
+  .question:hover {
+    color:pink;
+  }
+
+  .question:focus {
+      outline: none;
+      box-shadow: none;
+      border: none;
+      color: hotpink;
+  }
+
+  input[type="button"]
+  {border: none;
+  outline: none;}
+
+  /* Contact */
+
+  .contact{position: relative;
+    top:0;
+    min-height:45rem;
+    height: 110vh;
+    padding-top: 4rem;
+    display:block;
+    background-color: snow;
+    z-index: 1;
+    overflow: hidden;}
+  
+    .video4 {
+    height: 50rem;
+    margin-left: 0rem;
+    margin-top:-7rem;
+    display: block;
+    z-index: 0;
+    top: 0;  
+    filter: grayscale(100%) opacity(100%);    
+     
+    }  
+
+    .contactcontent{margin-top: 10rem;}
+
+    .contact-box {
+      margin-top: 23vh;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+      border: solid 3px #a5a5a5;
+      min-width: 25rem;
+      padding-top: -20rem;
     }
-    #records{top: 7rem;}
+
+    
+    
+    button, input, select, textarea {
+      color: #a5a5a5;
+    }
+      
+    
+    form {
+      padding: 2rem;
+
+    }
+       
+    
+    .email {
+      margin-top:-2.5rem;
+      margin-right: 10%;
+      float: right;
+      width: 40%;
+    }
+    
+    input[type='text'], [type='email'], select, textarea {
+      background: none;
+      border: none;
+      border-bottom: solid 0.15rem #a5a5a5;
+      color: black;
+      font-size: 1.7rem;
+      margin: 1rem 0.9rem;
+      width: 100%;
+      transition: all 0.3s;
+    }
+    
+    input[type='text']:focus, [type='email']:focus, textarea:focus {
+      color: pink;
+      outline: none;
+      border-bottom: solid 0.15rem pink;
+      padding: 0 0 1rem 0;
+    }
+    
+    
+    .name {
+      margin-top:-2.5rem;
+      float: left;
+      width: 40%;
+    }
+    
+    
+    .telephone {
+      margin-top:-2.5rem;
+      width: 90%;
+    }
+    
+    textarea {
+      margin-top:0rem;
+      margin-left:0.5rem;
+      height: 10vh;
+      resize: none;
+      width: 90%;
+    }
+    
+  
+    
+    
+    #form_button {
+      font-family: HiLo-Deco;
+      background: none;
+      font-weight: bold;
+      border: solid 0.2rem #a5a5a5;
+      color: #a5a5a5;
+      display: inline-block;
+      font-size: 2.2rem;
+      outline: none;
+      padding: 0.6rem 2rem 1rem 2rem;
+      margin-left: 0.5rem;
+      transition: all 0.3s;
+    }
+    
+    #form_button:hover {
+      border: solid 0.2rem pink;
+      background: pink;
+      color: snow;
+    }
+    
+  .finalremarks {
+    height: auto;
+  }
+
+#logo {float: left;}
+
+  .info {
+    padding-top: 2rem;
+    color: pink;
+  }
+
+  
+
+
+  @media screen and (max-width: 683px) { 
+    body{font-size: 1.4rem;}
+    .video{height: 52rem; margin-left:-45%; margin-top: -3rem;}
+    .intro{min-height: 2rem; height: 50rem; padding-top:0rem;}
     html {--mainfontsize: 0.8em;}
     .splash2{font-size: 7vw; top:10rem;}
     .splash{grid-template-columns: auto 16.6vw auto; 
@@ -257,8 +466,22 @@ body{
     .sell{font-size: 16vw; color: hotpink;}
     .your{font-size:8vw; margin-top:-.5rem; color:pink}
     .vinyl{font-size:16vw;}
-    .navbar{font-size:6vw; margin-top:-19rem;
-    margin-left: 3%; margin-right: 3%}
-    .intro{max-height: 43rem; min-height: 38rem;}
-    .process{margin-top: 24rem;}
-    }
+    .navbar{font-size: min(6vw, 2rem); margin-top:-30rem;
+    margin-left: 3%; margin-right: 3%;}
+    .process{margin-top: 17rem; height: auto;}
+    .steps{margin-top: 15rem; display: block; font-size: 1.4rem;}
+    .processhead{font-size:2.5rem; padding-top: 15rem}
+    h2{font-size: 2rem;}
+    .vinyl-icon {width: 3rem; margin: auto;}
+    .telephone-icon {width: 3.5rem; margin: auto;}
+    .dollar-icon {width: 2rem; margin: auto;}
+    .FAQ{margin-top:-10vh}
+    .question {font-size: 1.6rem;}
+    .faqhead {
+      height: 18vh;}
+    .video3{width:109vw;
+    margin-top:-18rem;}
+    .heady {margin-top: -7rem}
+    #faqbox {margin-top: 10rem;}
+    input[type='text'], [type='email'], select, textarea {font-size:1.4rem;}
+    #form_button {font-size: 1.8rem; padding: 0.2rem 1.2rem 0.4rem 1.4rem;}}
