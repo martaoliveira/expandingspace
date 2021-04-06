@@ -484,7 +484,8 @@ h2 {
     input[type='text'], [type='email'], select, textarea {font-size:1.4rem;}
     #form_button {font-size: 1.8rem; padding: 0.2rem 1.2rem 0.4rem 1.4rem;}
     .name{float: none; width: 90%;}
-    .email{float: none; width: 90%}}
+    .email{float: none; width: 90%}
+    .contact-box{min-width: 90vw;}}
 
     @media screen and (max-width: 500px) {
       .navbar{font-size: 5vw; margin-top: min(-65vh);
@@ -492,4 +493,4 @@ h2 {
       .processhead{font-size:2rem; padding-top: 28vh}
     h2{font-size: 1.5rem;}
     .steps{margin-top: 25vh; display: block; font-size: 1.2rem;}
-    } 
+    input[type='text'], [type='email'], select, textarea {font-size: 1.3rem;}} 
