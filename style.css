@@ -447,7 +447,8 @@ h2 {
     
   .finalremarks {
     background-color: green;
-    height: 48vw;
+    height: 38vw;
+    min-height:30rem;
   }
   
   #logo {float: left;}
@@ -496,8 +497,6 @@ h2 {
     .name{float: none; width: 90%;}
     .email{float: none; width: 90%}
     .contact-box{min-width: 90vw;}
-    .info-wrapper {padding-top: 2rem; 
-      padding-bottom: 28vw;}
   }
 
     @media screen and (max-width: 500px) {
