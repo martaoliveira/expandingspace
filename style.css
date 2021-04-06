@@ -92,6 +92,8 @@ h2 {
     filter: grayscale(100%) opacity(50%);  
     min-height: 53rem;
     height:100vh;
+    background-image: url("platebackground.jpg");
+    background-attachment: fixed;
   }      
 
 
@@ -217,7 +219,6 @@ h2 {
 
 
   .process {
-    background-color: snow;
     margin-top: 21rem;
     height:100vh;
     min-height: 51rem;
@@ -272,7 +273,10 @@ h2 {
     display: block;
     z-index: 0;
     top: 0;  
-    filter: grayscale(100%) opacity(100%);  
+    filter: grayscale(100%) opacity(100%);
+    background-image: url("Background_bn.jpg");
+    background-size: 100%;
+    background-attachment: fixed;  
   }
 
   .FAQ {
@@ -341,7 +345,12 @@ h2 {
     display: block;
     z-index: 0;
     top: 0;  
-    filter: grayscale(100%) opacity(100%);    
+    filter: grayscale(100%) opacity(100%); 
+    background-image: url("vinyl-background-end.jpg");
+    background-size: 100%;
+    background-position: -40% 0%;
+    background-attachment: fixed;
+
     }  
 
     .contactcontent{margin-top: 10rem;}
@@ -437,6 +446,7 @@ h2 {
     }
     
   .finalremarks {
+    background-color: green;
     height: auto;
   }
   
