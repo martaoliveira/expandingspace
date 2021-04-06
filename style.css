@@ -278,7 +278,7 @@ h2 {
   .FAQ {
     padding-top: 4rem;
     background-color: snow;
-    height: 100vh;
+    height: max(100vh, auto);
   }
   
   #faqbox {
@@ -465,7 +465,7 @@ h2 {
     .vinyl{font-size:16vw;}
     .navbar{font-size: min(5vw, 2rem); margin-top:-61vh;
     margin-left: 3%; margin-right: 3%;}
-    .process{margin-top: 17rem; height: auto;}
+    .process{margin-top: 37vh; height: auto;}
     .steps{margin-top: 15rem; display: block; font-size: 1.4rem;}
     .processhead{font-size:2.5rem; padding-top: 34vh}
     h2{font-size: 2rem;}
