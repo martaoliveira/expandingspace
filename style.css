@@ -275,7 +275,7 @@ h2 {
     top: 0;  
     filter: grayscale(100%) opacity(100%);
     background-image: url("Background_bn.jpg");
-    background-size: 100%;
+    background-size: 140%;
     background-attachment: fixed;  
   }
 
@@ -505,4 +505,6 @@ h2 {
       .processhead{font-size:2rem; padding-top: 6vh}
     h2{font-size: 1.5rem;}
     .steps{margin-top: 25vh; display: block; font-size: 1.2rem;}
-    input[type='text'], [type='email'], select, textarea {font-size: 1.3rem;}} 
+    input[type='text'], [type='email'], select, textarea {font-size: 1.3rem;}
+    .heady{margin-top: -26vw;
+    font-size: 14vw;}} 
