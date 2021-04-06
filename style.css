@@ -457,7 +457,7 @@ h2 {
     .video{height: 106vh; margin-left:-60%; margin-top: -3rem;}
     .intro{min-height: 2rem; height: 100vh; padding-top:0rem;}
     html {--mainfontsize: 0.8em;}
-    .splash2{font-size: 7vw; top:20vh;}
+    .splash2{font-size: 7vw; top:19vh;}
     .splash{grid-template-columns: auto 16.6vw auto; 
       grid-template-rows:3rem; top: 26vh;}
     .sell{font-size: 16vw; color: hotpink;}
