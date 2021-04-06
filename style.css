@@ -99,7 +99,6 @@ h2 {
 
   #letters{
     margin-top:1.5rem;
-    z-index:100; 
     width:100%;
     margin-left: min(-2.8rem, -4.7vw); }
   
@@ -117,7 +116,6 @@ h2 {
 }
   
   #record{
-    z-index:0;
     stroke-miterlimit:100;
     width:23.5vw;
     min-width:14rem;
@@ -481,6 +479,7 @@ h2 {
       height: 18vh;}
     .video3{width:109vw;
     margin-top:-18rem;}
+    .video4{margin-left: -9rem; height:30rem; margin-top: -4rem;}
     .heady {margin-top: -7rem}
     #faqbox {margin-top: 10rem;}
     input[type='text'], [type='email'], select, textarea {font-size:1.4rem;}
