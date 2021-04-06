@@ -464,10 +464,10 @@ h2 {
     .your{font-size:8vw; margin-top:-.5rem; color:pink}
     .vinyl{font-size:16vw;}
     .navbar{font-size: min(5vw, 2rem); margin-top:-61vh;
-    margin-left: 3%; margin-right: 3%;}
-    .process{margin-top: 37vh; height: auto;}
+    margin-left: 3%; margin-right: 3%; margin-bottom: 57vh;}
+    .process{height: auto;}
     .steps{margin-top: 15rem; display: block; font-size: 1.4rem;}
-    .processhead{font-size:2.5rem; padding-top: 34vh}
+    .processhead{font-size:2.5rem; padding-top: 6vh}
     h2{font-size: 2rem;}
     .vinyl-icon {width: 3rem; margin: auto;}
     .telephone-icon {width: 3.5rem; margin: auto;}
@@ -489,8 +489,8 @@ h2 {
 
     @media screen and (max-width: 500px) {
       .navbar{font-size: 5vw; margin-top: min(-65vh);
-        margin-left: 3%; margin-right: 3%;}
-      .processhead{font-size:2rem; padding-top: 28vh}
+        margin-left: 3%; margin-right: 3%; margin-bottom: 60vh;}
+      .processhead{font-size:2rem; padding-top: 6vh}
     h2{font-size: 1.5rem;}
     .steps{margin-top: 25vh; display: block; font-size: 1.2rem;}
     input[type='text'], [type='email'], select, textarea {font-size: 1.3rem;}} 
