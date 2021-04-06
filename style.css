@@ -457,13 +457,13 @@ h2 {
     .video{height: 106vh; margin-left:-60%; margin-top: -3rem;}
     .intro{min-height: 2rem; height: 100vh; padding-top:0rem;}
     html {--mainfontsize: 0.8em;}
-    .splash2{font-size: 7vw; top:10rem;}
+    .splash2{font-size: 7vw; top:20vh;}
     .splash{grid-template-columns: auto 16.6vw auto; 
-      grid-template-rows:3rem; top: 13.6rem;}
+      grid-template-rows:3rem; top: 26vh;}
     .sell{font-size: 16vw; color: hotpink;}
     .your{font-size:8vw; margin-top:-.5rem; color:pink}
     .vinyl{font-size:16vw;}
-    .navbar{font-size: min(5vw, 2rem); margin-top:-35rem;
+    .navbar{font-size: min(5vw, 2rem); margin-top:-61vh;
     margin-left: 3%; margin-right: 3%;}
     .process{margin-top: 17rem; height: auto;}
     .steps{margin-top: 15rem; display: block; font-size: 1.4rem;}
@@ -486,7 +486,7 @@ h2 {
     .name{float: none; width: 90%;}
     .email{float: none; width: 90%}}
 
-    @media screen and (max-width: 600px) {
-      .navbar{font-size: 4vw; margin-top:-31rem;
+    @media screen and (max-width: 500px) {
+      .navbar{font-size: 5vw; margin-top: min(-65vh);
         margin-left: 3%; margin-right: 3%;}
     } 
