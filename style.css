@@ -451,7 +451,8 @@ h2 {
   
   #logo {float: left;}
 
-  .info-wrapper {padding-top: 2rem;}
+  .info-wrapper {padding-top: 2rem; 
+    padding-bottom: 20vw;}
 
   .info {
     padding-top: 0.4rem;
