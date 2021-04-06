@@ -25,13 +25,13 @@
 
 html {
   position:relative;
-  background-color:black;
+  background-color:snow;
     --mainfontsize: 1.1rem;
     font-size: 100%;
     overflow-x: hidden;
   }
 body{
-  background-color:black;
+  background-color:snow;
   width:100%;
   font-family: HiLo-Deco;
   font-size: 1.7em;
