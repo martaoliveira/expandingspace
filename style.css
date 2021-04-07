@@ -80,7 +80,7 @@ h2 {
   top: 0;
   min-height: 53rem;
   height: 100vh;
-  background-color: black;
+  background-color: red;
   z-index: 10;
   overflow: hidden;}
 
