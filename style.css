@@ -448,18 +448,19 @@ h2 {
     
   .finalremarks {
     background-color: black;
-    height: auto;
+    height: 23rem;
     overflow: hidden;
   }
   
-  #logo {float: left;}
 
-  .logo{z-index:100;
+
+  .logo{float: left;
+    z-index:100;
     width:25rem;
     margin-left: -5rem;
-    margin-top: -1rem;}
+    margin-top: -0.5rem;}
 
-  .info-wrapper {padding-top: 2rem; }
+  .info-wrapper {padding-top: 1.5rem; }
 
   .info {
     padding-top: 0.4rem;
@@ -503,6 +504,10 @@ h2 {
     .name{float: none; width: 90%;}
     .email{float: none; width: 90%}
     .contact-box{min-width: 90vw; margin-top: -18vw; padding-top: 0;}
+    .finalremarks {height: 18rem;}
+    .logo{width:20rem;
+      margin-left: -4rem;
+      margin-top: -0.5rem;}
   }
 
     @media screen and (max-width: 500px) {
@@ -516,4 +521,8 @@ h2 {
     .heady{ 
     font-size: min(3.2rem, 14vw);
     margin-top:-5.7rem;}
+    .finalremarks {height: 12.5rem;}
+    .logo{width:14rem;
+      margin-left: -2rem;
+      margin-top: -0.5rem;}
     } 
