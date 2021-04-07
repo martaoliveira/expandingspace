@@ -99,7 +99,7 @@ h2 {
 
 
 
-  #letters{
+   /* Direct Logo: #letters{
     margin-top:1.5rem;
     width:100%;
     margin-left: min(-2.8rem, -4.7vw); }
@@ -129,7 +129,7 @@ h2 {
   .cls-3{stroke:hotpink;}
   .cls-4{stroke:MediumVioletRed;}
   .cls-5{stroke:deeppink;}
-  .cls-6{stroke:pink;}
+  .cls-6{stroke:pink;}*/
   
 
 
@@ -447,12 +447,17 @@ h2 {
     }
     
   .finalremarks {
-    background-color: green;
-    height: 38vw;
-    min-height:23rem;
+    background-color: black;
+    height: auto;
+    overflow: hidden;
   }
   
   #logo {float: left;}
+
+  .logo{z-index:100;
+    width:25rem;
+    margin-left: -5rem;
+    margin-top: -1rem;}
 
   .info-wrapper {padding-top: 2rem; }
 
