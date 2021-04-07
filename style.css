@@ -522,7 +522,9 @@ h2 {
     font-size: min(3.2rem, 14vw);
     margin-top:-5.7rem;}
     .finalremarks {height: 12.5rem;}
-    .logo{width:14rem;
+    .logo{width:12.8rem;
       margin-left: -2rem;
       margin-top: -0.5rem;}
+    .info-wrapper {font-size: 0.9rem; padding-top:0rem;}
+    .info {padding-top: 0rem;}
     } 
