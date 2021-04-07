@@ -507,5 +507,8 @@ h2 {
     h2{font-size: 1.5rem;}
     .steps{margin-top: 25vh; display: block; font-size: 1.2rem;}
     input[type='text'], [type='email'], select, textarea {font-size: 1.3rem;}
+    .faqhead{height: 6.5rem}
     .heady{ 
-    font-size: min(3.2rem, 14vw);}} 
+    font-size: min(3.2rem, 14vw);
+    margin-top:-5.7rem;}
+    } 
