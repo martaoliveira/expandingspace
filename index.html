@@ -7,20 +7,71 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="javascript.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+
+  <!-- Preloader -->
+
+
+<div class="preloader">
+  <svg id="preloading" class="preloading" data-name="Capa 4" xmlns="http://www.w3.org/2000/svg" viewBox="-30 -30 824.62 824.62"><defs><style> .cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6{fill:none;stroke-miterlimit:10;stroke-width:7px;}
+    .cls-1{stroke:palevioletred;}
+    .cls-2{stroke:#FF909B;}
+    .cls-3{stroke:hotpink;}
+    .cls-4{stroke:MediumVioletRed;}
+    .cls-5{stroke:deeppink;}
+    .cls-6{stroke:pink;}
+    </style></defs><title>record</title>
+      
+        <circle id="center" class="cls-6" cx="363.91" cy="359.29" r="22.43"/>
+      
+      <circle id="circle1" class="cls-5" cx="363.91" cy="359.29" r="112.13"/>
+      
+       <circle id="circle2" class="cls-4" cx="363.91" cy="359.29" r="134.55"/>
+      
+       <circle id="circle3" class="cls-3" cx="363.91" cy="359.29" r="156.98"/>
+      
+      <circle id="circle4" class="cls-1" cx="363.91" cy="362.31" r="179.41"/>
+      
+       <circle id="circle5" class="cls-2" cx="362.31" cy="362.31" r="201.7"/>
+      
+      <circle id="circle6" class="cls-1" cx="363.91" cy="362.31" r="224.23"/>
+      
+      <circle id="circle7" class="cls-3" cx="363.91" cy="362.31" r="246.68"/>
+      
+      <circle id="circle8" class="cls-4" cx="363.91" cy="362.31" r="269.03"/>
+      
+      <circle id="circle9" class="cls-3" cx="363.91" cy="362.31" r="291.34"/>
+      
+      <circle id="circle10" class="cls-1" cx="363.91" cy="362.31" r="313.8"/>
+      
+      <circle id="circle11" class="cls-2" cx="363.91" cy="362.31" r="336.39"/>
+     
+      <circle id="circle12" class="cls-5" cx="362.31" cy="362.31" r="358.81"/></svg>
+</div> 
+
+  <!-- Body -->
+
+<body id="stop-scrolling">
   <script>
     AOS.init();
   </script> 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
-
+    <script type="text/javascript">  function preloaderFadeOutInit(){
+    $('.preloader').fadeOut('slow');
+    $('body').attr('id','');
+    }
+    // Window load function
+    jQuery(window).on('load', function () {
+    (function ($) {
+    preloaderFadeOutInit();
+    })(jQuery);
+    });</script>
  <!-- Intro -->   
 
 <div class=intro id=intro>

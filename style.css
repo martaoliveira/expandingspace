@@ -74,6 +74,46 @@ h2 {
   
         .color1{fill:#f517ff}.color2{fill:#73ff9b}.color3{fill:#2edeff}.color4{fill:none}
 
+
+.preloader {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right:0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999999;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  background-position: center;
+  }    
+  
+  .preloading {width: 30vw;
+    max-width: 20rem;
+    --animation-time: 0.7s;
+    }
+  
+    #circle1 {animation: example var(--animation-time) infinite; animation-delay:0.4s;}
+    #circle2 {animation: example var(--animation-time) infinite; animation-delay:0.45s;}
+    #circle3 {animation: example var(--animation-time) infinite; animation-delay: 0.5s;}
+    #circle4 {animation: example var(--animation-time) infinite; animation-delay: 0.55s;}
+    #circle5 {animation: example var(--animation-time) infinite; animation-delay: 0.65s;}
+    #circle6 {animation: example var(--animation-time) infinite; animation-delay: 0.7s;}
+    #circle7 {animation: example var(--animation-time) infinite; animation-delay: 0.75s;}
+    #circle8 {animation: example var(--animation-time) infinite; animation-delay: 0.8s;}
+    #circle9 {animation: example var(--animation-time) infinite; animation-delay: 0.85s;}
+    #circle10 {animation: example var(--animation-time) infinite; animation-delay: 0.9s;}
+    #circle11 {animation: example var(--animation-time) infinite; animation-delay: 1s;}
+    #circle12 {animation: example var(--animation-time) infinite; animation-delay: 1.1s;}
+
+  #stop-scrolling {
+height: 100% !important;
+overflow: hidden !important;
+    }
+
   .intro {
   position: relative;
   display:block;

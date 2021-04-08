@@ -1,4 +1,12 @@
-window.addEventListener('scroll', () => {
-    document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-  }, false);
+
+  function preloaderFadeOutInit(){
+    $('.preloader').fadeOut('slow');
+    $('body').attr('id','');
+    }
+    // Window load function
+    jQuery(window).on('load', function () {
+    (function ($) {
+    preloaderFadeOutInit();
+    })(jQuery);
+    });
     
